@@ -3,7 +3,21 @@
 
     <item
         android:id="@+id/adicionarFragment"
-        android:title="@string/adicionar"
+        android:title="@string/Usuario"
+        android:icon="@drawable/user"
         />
+    <item
+        android:id="@+id/ListarFragment"
+        android:title="@string/listar"
+        android:icon="@drawable/calendario"
+        />
+    <item
+        android:id="@+id/horariosFragment"
+        android:title="@string/horarios"
+        android:icon="@drawable/calendar"
+        />
+
+
+
 
 </menu>

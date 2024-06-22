@@ -4,13 +4,13 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.createdevs.barberapp.databinding.FragmentPrincipalBinding
+import com.createdevs.barberapp.databinding.FragmentUserBinding
 import com.createdevs.barberapp.domain.BaseFragment
 
-class PrincipalFragment : BaseFragment<FragmentPrincipalBinding>() {
+class UserFragment : BaseFragment<FragmentUserBinding>() {
 
-    override fun getViewBinding(inflater: LayoutInflater, container: ViewGroup?): FragmentPrincipalBinding {
-        return FragmentPrincipalBinding.inflate(inflater, container, false)
+    override fun getViewBinding(inflater: LayoutInflater, container: ViewGroup?): FragmentUserBinding {
+        return FragmentUserBinding.inflate(inflater, container, false)
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
