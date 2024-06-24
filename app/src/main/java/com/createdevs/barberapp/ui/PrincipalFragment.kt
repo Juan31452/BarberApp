@@ -6,7 +6,9 @@ import android.view.View
 import android.view.ViewGroup
 import com.createdevs.barberapp.databinding.FragmentPrincipalBinding
 import com.createdevs.barberapp.domain.BaseFragment
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class PrincipalFragment : BaseFragment<FragmentPrincipalBinding>() {
 
     override fun getViewBinding(inflater: LayoutInflater, container: ViewGroup?): FragmentPrincipalBinding {

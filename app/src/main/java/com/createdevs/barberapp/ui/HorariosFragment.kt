@@ -7,8 +7,9 @@ import android.view.View
 import android.view.ViewGroup
 import com.createdevs.barberapp.databinding.FragmentHorariosBinding
 import com.createdevs.barberapp.domain.BaseFragment
+import dagger.hilt.android.AndroidEntryPoint
 
-
+@AndroidEntryPoint
 class HorariosFragment : BaseFragment<FragmentHorariosBinding>() {
 
     override fun getViewBinding(inflater: LayoutInflater, container: ViewGroup?): FragmentHorariosBinding {
